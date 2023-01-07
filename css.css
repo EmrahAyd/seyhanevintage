@@ -1,13 +1,11 @@
 @charset "UTF-8";
 @import url(bootstrap.css);
-/* @import 'normalize.css'; */
-/*@import 'jquery.fancybox.min.css';*/
-
-
-/* @import url('https://fonts.googleapis.com/css?family=Comfortaa');
-@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,500,700,900&display=swap&subset=latin-ext'); */
+@import 'normalize.css';
 @import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
 
+/* @import 'jquery.fancybox.min.css';
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,500,700,900&display=swap&subset=latin-ext'); */
 
 
 .afterClear,
@@ -16,7 +14,7 @@
 .gender:after { clear: both; display: table; content: ""; }
 
 /* ================================================ */
-body::selection
+html::selection
 {
    background-color: red;
    color : #fff
@@ -26,6 +24,7 @@ body::-moz-selection
    background-color: red;
    color : #fff
 }
+
 body { background: #fff; color: #000;
       font-family: 'Comfortaa';
       font-weight: normal; margin: 0; padding: 0; }
@@ -1121,13 +1120,13 @@ div.productOnYazi * { font-size: 13px; color: #a1a1a1; line-height: 16px; font-w
 .StokYok .cargoIcon { top: 0; }
 .StokYok.IndirimliUrun .cargoIcon { top: 35px; }
 .itemCategory { display: none !important; }
-.favori { opacity: 0; position: absolute; left: 0; right: 0; top: 0; bottom: 0; z-index: 8; margin: auto; height: 35px; width: 35px; }
+.favicon { opacity: 0; position: absolute; left: 0; right: 0; top: 0; bottom: 0; z-index: 8; margin: auto; height: 35px; width: 35px; }
 .mycartIcon { opacity: 0; position: absolute; left: 20%; top: 40%; z-index: 8; height: 35px; top: 0; bottom: 0; margin: auto; display: none; }
 .examineIcon { opacity: 0; position: absolute; right: 20%; top: 0; z-index: 8; bottom: 0; height: 35px; margin: auto; }
 .favori a { display: inline-block; font-size: 0; width: 35px; height: 35px; border-radius: 100%; background: #388e3c; float: left; }
 .mycartIcon a { display: inline-block; font-size: 0; width: 35px; height: 35px; border-radius: 100%; background: #388e3c; float: left; }
 .examineIcon a { display: inline-block; font-size: 0; width: 35px; height: 35px; border-radius: 100%; background: #388e3c; float: left; }
-.examineIcon a:hover, .mycartIcon a:hover, .favori a:hover { background: #000; }
+.examineIcon a:hover, .mycartIcon a:hover, .favicon a:hover { background: #000; }
 .StokYok .examineIcon a, .StokYok .mycartIcon a, .StokYok .favori a { display: none !important; }
 .mycartIcon a:after { content: "\f217"; font-family: FontAwesome; font-size: 16px; color: #fff; line-height: 35px; }
 .favori a:after { content: "\f004"; font-family: FontAwesome; font-size: 16px; color: #fff; line-height: 35px; }
@@ -1793,7 +1792,7 @@ ul.rating li i.starItem { font-size: 14px !important; }
 
 
 /*Sepet*/
-.mycart { float: right; position: relative; }
+.mycart { float: right; position: relative;margin-top: 18px; }
 
 .mycart > a { display: block; color: #000; line-height: 96px; margin-left: 25px; }
 
