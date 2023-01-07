@@ -1,21 +1,10 @@
 @charset "UTF-8";
 @import url(bootstrap.css);
 @import 'normalize.css';
-@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
-
-/* @import 'jquery.fancybox.min.css';
-@import url('https://fonts.googleapis.com/css?family=Comfortaa');
-@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,500,700,900&display=swap&subset=latin-ext'); */
+/*@import 'jquery.fancybox.min.css';*/
 
 
-.logoArea{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 75px;
-}
-
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap&subset=latin-ext');
 
 .afterClear,
 .gridLeft:after,
@@ -23,20 +12,8 @@
 .gender:after { clear: both; display: table; content: ""; }
 
 /* ================================================ */
-html::selection
-{
-   background-color: red;
-   color : #fff
-}
-body::-moz-selection
-{
-   background-color: red;
-   color : #fff
-}
 
-body { background: #fff; color: #000;
-      font-family: 'Comfortaa';
-      font-weight: normal; margin: 0; padding: 0; }
+body { background: #fff; color: #000; font-family: 'Roboto', sans-serif !important; font-weight: normal; margin: 0; padding: 0; }
 
 
 #overlay { opacity: .5; position: fixed; bottom: 0; left: 0; top: 0; width: 100%; height: 100%; background: #000000; -webkit-transition: -webkit-transform 300ms ease; -moz-transition: -moz-transform 300ms ease; -o-transition: -o-transform 300ms ease; transition: transform 300ms ease; z-index: 3; display: none; }
@@ -73,15 +50,15 @@ body, td, th, input, textarea, select, a { font-size: 13px; }
 
 .bordernone { border: none !important; }
 
-.textarea { font-family: "Comfortaa", sans-serif !important; border: solid 1px #DDDDDD; padding: 4px; width: 94%; height: 80px; resize: none; color: #777777; background-color: transparent; transition-duration: 0.2s, 0.2s; -webkit-transition-duration: 0.2s, 0.2s; /* Safari */ }
+.textarea { font-family: "Roboto", sans-serif !important; border: solid 1px #DDDDDD; padding: 4px; width: 94%; height: 80px; resize: none; color: #777777; background-color: transparent; transition-duration: 0.2s, 0.2s; -webkit-transition-duration: 0.2s, 0.2s; /* Safari */ }
 
-.textbox { font-family: "Comfortaa", sans-serif !important; border: 1px solid #ccc; color: #666666; display: block; font-size: 12px; width: 100%; padding: 8px 8px; margin: 0 0 8px 0; transition-duration: 0.2s, 0.2s; -webkit-transition-duration: 0.2s, 0.2s; /* Safari */ }
+.textbox { font-family: "Roboto", sans-serif !important; border: 1px solid #ccc; color: #666666; display: block; font-size: 12px; width: 100%; padding: 8px 8px; margin: 0 0 8px 0; transition-duration: 0.2s, 0.2s; -webkit-transition-duration: 0.2s, 0.2s; /* Safari */ }
 
 .Block_item .button { display: block; width: 100%; }
 
-.button { cursor: pointer; background: #388e3c; color: #FFFFFF; padding: 8px 10px; transition: 0.3s; -moz-transition: 0.3s; -webkit-transition: 0.3s; -ms-transition: 0.3s; margin: 0 0 8px 0; border: 0; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0; }
+.button { cursor: pointer; background: #cacc34; color: #FFFFFF; padding: 8px 10px; transition: 0.3s; -moz-transition: 0.3s; -webkit-transition: 0.3s; -ms-transition: 0.3s; margin: 0 0 8px 0; border: 0; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0; }
 
-.button:hover { background-color: #388e3c; transition: 0.3s; -moz-transition: 0.3s; -webkit-transition: 0.3s; -ms-transition: 0.3s; }
+.button:hover { background-color: #000; transition: 0.3s; -moz-transition: 0.3s; -webkit-transition: 0.3s; -ms-transition: 0.3s; }
 
 .selectboxx { border: 1px solid #DDDDDD; width: 100%; padding: 0 10px; height: 40px; }
 
@@ -169,7 +146,7 @@ select { height: 40px; padding: 0 17px 0 10px; line-height: 30px; border: 1px so
 
 .ProductListprev:after { font-family: 'FontAwesome'; color: #a1a1a1; font-size: 16px; content: "\f053"; line-height: 40px; }
 
-.ProductListprev:hover { background: #388e3c; }
+.ProductListprev:hover { background: #cacc34; }
 
 .ProductListprev:hover:after { color: #fff; }
 
@@ -177,7 +154,7 @@ select { height: 40px; padding: 0 17px 0 10px; line-height: 30px; border: 1px so
 
 .ProductListnext:after { font-family: 'FontAwesome'; color: #a1a1a1; font-size: 16px; content: "\f054"; line-height: 40px; }
 
-.ProductListnext:hover { background: #388e3c; }
+.ProductListnext:hover { background: #cacc34; }
 
 .ProductListnext:hover:after { color: #fff; }
 
@@ -221,7 +198,7 @@ select { height: 40px; padding: 0 17px 0 10px; line-height: 30px; border: 1px so
 
 .userMenu li a { display: block; font-size: 13px; color: #0e0e0e; padding: 5px; line-height: 30px; background: #eaeaea; }
 
-.userMenu li:hover a { color: #fff; background: #388e3c; }
+.userMenu li:hover a { color: #fff; background: #cacc34; }
 
 
 /* ================================================== */
@@ -722,11 +699,11 @@ div#fancy_print { background: url("../Default/images/print2.png") no-repeat scro
 
 .Firsatprev { display: none; cursor: pointer; position: absolute; left: 0; top: 50%; margin-top: -20px; font-size: 30px; color: #000; z-index: 99; background: none; }
 
-.Firsatprev:hover { color: #388e3c; }
+.Firsatprev:hover { color: #cacc34; }
 
 .Firsatnext { display: none; cursor: pointer; position: absolute; right: 0; top: 50%; margin-top: -20px; font-size: 30px; color: #000; z-index: 99; background: none; }
 
-.Firsatnext:hover { color: #388e3c; }
+.Firsatnext:hover { color: #cacc34; }
 
 .firsatUrunleriItem { width: 230px; }
 
@@ -943,15 +920,15 @@ ul.KatMenu1 li { position: relative; display: block; padding: 0; }
 
 ul.KatMenu1 li a { line-height: 30px !important;; display: block; text-indent: 0px; font-size: 12px !important; color: #5f5f5f; transition: 0.3s; background-color: #fff; }
 
-ul.KatMenu1 > li:hover > a { color: #388e3c !important; text-indent: 20px; transition: 0.3s; }
+ul.KatMenu1 > li:hover > a { color: #cacc34 !important; text-indent: 20px; transition: 0.3s; }
 
 ul.KatMenu1 > li > ul > li > a { text-indent: 10px; }
 
-ul.KatMenu1 > li > ul > li:hover > a { color: #fff !important; background-color: #388e3c; text-indent: 20px; transition: 0.3s; }
+ul.KatMenu1 > li > ul > li:hover > a { color: #fff !important; background-color: #cacc34; text-indent: 20px; transition: 0.3s; }
 
 ul.KatMenu1 > li > ul > li > ul > li > a { text-indent: 10px; }
 
-ul.KatMenu1 > li > ul > li > ul > li:hover > a { color: #fff !important; background-color: #388e3c; text-indent: 20px; transition: 0.3s; }
+ul.KatMenu1 > li > ul > li > ul > li:hover > a { color: #fff !important; background-color: #cacc34; text-indent: 20px; transition: 0.3s; }
 
 ul.KatMenu1 li:hover > ul { display: block !important; }
 
@@ -983,17 +960,17 @@ ul.KatMenu1 li.ulVar > a:after { left: auto; border-width: 3px 4px; border-top-c
 .SepetKampanyaTittle,
 .SepetKampanyaTittle::before,
 a.YeniAdresEkle,
-.Basketstep ul li.onestepsec span { color: #388e3c !important; }
+.Basketstep ul li.onestepsec span { color: #cacc34 !important; }
 
-.body.sepetimBody .basketCompletebtn,.basketCompletebtn { background: #388e3c !important; }
+.body.sepetimBody .basketCompletebtn,.basketCompletebtn { background: #cacc34 !important; }
 
-.OdemeMenu ul li.activeMenu { border-color: #388e3c !important; }
+.OdemeMenu ul li.activeMenu { border-color: #cacc34 !important; }
 
-.OdemeMenu ul li:hover { border-color: #388e3c !important; }
+.OdemeMenu ul li:hover { border-color: #cacc34 !important; }
 
-.baglanButton { background: #388e3c; border-color: #388e3c; }
+.baglanButton { background: #cacc34; border-color: #cacc34; }
 
-.baglanButton:hover { background: transparent; color: #388e3c; }
+.baglanButton:hover { background: transparent; color: #cacc34; }
 
 .Basketstep ul li.pasif i { color: #b5b5b5 !important; }
 
@@ -1108,9 +1085,9 @@ a.YeniAdresEkle,
 
 .productModuleItem2 .productMarka, .productModuleItem .productMarka, .productItem .productMarka { padding: 0 10px; display: none !important; margin-bottom: 5px; float: left; width: 100%; text-align: left; color: #666; font-size: 13px; font-weight: normal; }
 
-.productModuleItem2:hover .modulename2 *, .productModuleItem:hover .modulename *, .productItem:hover .productName * { color: #388e3c; }
+.productModuleItem2:hover .modulename2 *, .productModuleItem:hover .modulename *, .productItem:hover .productName * { color: #cacc34; }
 
-.productModuleItem:hover .modulediscount *, .productItem:hover .discountPrice * { color: #388e3c; }
+.productModuleItem:hover .modulediscount *, .productItem:hover .discountPrice * { color: #cacc34; }
 
 /* ================================================ */
 /* ! URUN ICONLARI                                  */
@@ -1121,21 +1098,21 @@ a.YeniAdresEkle,
 .productOnYazi { text-align: left; max-height: 32px; overflow: hidden; float: left; width: 100%; margin: 5px 0; }
 .productPoints { text-align: left; }
 div.productOnYazi * { font-size: 13px; color: #a1a1a1; line-height: 16px; font-weight: normal; background-color: transparent; }
-.newIcon { position: absolute; text-align: center; left: 0; top: 0; background: #388e3c; color: #fff; font-size: 12px; font-weight: 500; width: 45px; height: 25px; line-height: 25px; overflow: hidden; z-index: 8; }
-.discountIcon { position: absolute; text-align: center; right: 0; top: 0; background: #388e3c; color: #fff; font-size: 13px; font-weight: 500; width: 45px; height: 25px; line-height: 25px; overflow: hidden; z-index: 8; }
-.cargoIcon { position: absolute; text-align: center; right: 0; top: 0; background: #388e3c; color: #fff; font-size: 12px; font-weight: 500; padding: 0 7px; overflow: hidden; line-height: 30px; z-index: 8; }
+.newIcon { position: absolute; text-align: center; left: 0; top: 0; background: #cacc34; color: #fff; font-size: 12px; font-weight: 500; width: 45px; height: 25px; line-height: 25px; overflow: hidden; z-index: 8; }
+.discountIcon { position: absolute; text-align: center; right: 0; top: 0; background: #cacc34; color: #fff; font-size: 13px; font-weight: 500; width: 45px; height: 25px; line-height: 25px; overflow: hidden; z-index: 8; }
+.cargoIcon { position: absolute; text-align: center; right: 0; top: 0; background: #cacc34; color: #fff; font-size: 12px; font-weight: 500; padding: 0 7px; overflow: hidden; line-height: 30px; z-index: 8; }
 .IndirimliUrun .cargoIcon { top: 35px; }
 .cargoIcon .fa { line-height: 30px; font-size: 15px; }
 .StokYok .cargoIcon { top: 0; }
 .StokYok.IndirimliUrun .cargoIcon { top: 35px; }
 .itemCategory { display: none !important; }
-.favicon { opacity: 0; position: absolute; left: 0; right: 0; top: 0; bottom: 0; z-index: 8; margin: auto; height: 35px; width: 35px; }
+.favori { opacity: 0; position: absolute; left: 0; right: 0; top: 0; bottom: 0; z-index: 8; margin: auto; height: 35px; width: 35px; }
 .mycartIcon { opacity: 0; position: absolute; left: 20%; top: 40%; z-index: 8; height: 35px; top: 0; bottom: 0; margin: auto; display: none; }
 .examineIcon { opacity: 0; position: absolute; right: 20%; top: 0; z-index: 8; bottom: 0; height: 35px; margin: auto; }
-.favori a { display: inline-block; font-size: 0; width: 35px; height: 35px; border-radius: 100%; background: #388e3c; float: left; }
-.mycartIcon a { display: inline-block; font-size: 0; width: 35px; height: 35px; border-radius: 100%; background: #388e3c; float: left; }
-.examineIcon a { display: inline-block; font-size: 0; width: 35px; height: 35px; border-radius: 100%; background: #388e3c; float: left; }
-.examineIcon a:hover, .mycartIcon a:hover, .favicon a:hover { background: #000; }
+.favori a { display: inline-block; font-size: 0; width: 35px; height: 35px; border-radius: 100%; background: #cacc34; float: left; }
+.mycartIcon a { display: inline-block; font-size: 0; width: 35px; height: 35px; border-radius: 100%; background: #cacc34; float: left; }
+.examineIcon a { display: inline-block; font-size: 0; width: 35px; height: 35px; border-radius: 100%; background: #cacc34; float: left; }
+.examineIcon a:hover, .mycartIcon a:hover, .favori a:hover { background: #000; }
 .StokYok .examineIcon a, .StokYok .mycartIcon a, .StokYok .favori a { display: none !important; }
 .mycartIcon a:after { content: "\f217"; font-family: FontAwesome; font-size: 16px; color: #fff; line-height: 35px; }
 .favori a:after { content: "\f004"; font-family: FontAwesome; font-size: 16px; color: #fff; line-height: 35px; }
@@ -1238,7 +1215,7 @@ body .ProductList.pr_hrz .productItem .quickViewIco { display: none !important; 
 
 .categoryTitleText { display: inline-block; float: left; width: 100%; border-bottom: 1px solid #e1e1e1; padding: 13px 0; }
 
-.categoryTitleText * { display: inline-block;font-family: 'Comfortaa'; color: #2b2b2b !important; font-size: 11px !important; line-height: 1.2 !important; font-weight: 400; letter-spacing: 0.5px; }
+.categoryTitleText * { display: inline-block; font-family: 'Roboto', serif; color: #2b2b2b !important; font-size: 11px !important; line-height: 1.2 !important; font-weight: 400; letter-spacing: 0.5px; }
 
 ul.breadcrumb li *, ul.breadcrumb li, a#linkOncekiSayfa { display: inline-block; color: #2b2b2b !important; font-size: 11px !important; line-height: 1.2 !important; font-weight: normal; margin-right: 0; vertical-align: top; }
 ul.breadcrumb li { margin-right: 3px !important; }
@@ -1323,7 +1300,7 @@ ul.breadcrumb a { display: inline-block; }
 
 .KategoriFilitreLine table tr td input[type="checkbox"][checked] + label { background: url("images/checkbox2.png") left center no-repeat; }
 
-.KategoriFilitreLine p input[type="text"] { width: 100%; padding: 0; font-family: 'Comfortaa' !important; color: #000000 !important; font-size: 13px; font-weight: bold; margin-bottom: 15px; }
+.KategoriFilitreLine p input[type="text"] { width: 100%; padding: 0; font-family: "Roboto", sans-serif !important; color: #000000 !important; font-size: 13px; font-weight: bold; margin-bottom: 15px; }
 
 
 /*.FilitreMaxHeight {max-height: 160px; overflow-y: scroll;}*/
@@ -1336,8 +1313,8 @@ ul.breadcrumb a { display: inline-block; }
 /* ================================================ */
 
 #back-to-top { position: fixed; right: 1%; top: 80%; z-index: 9999999; }
-#back-to-top a { font-size: 35px; color: #388e3c; display: inline-block; }
-#back-to-top a:hover { color: #388e3c; }
+#back-to-top a { font-size: 35px; color: #cacc34; display: inline-block; }
+#back-to-top a:hover { color: #cacc34; }
 
 .cloudzoom-blank > div:last-child { display: none !important; }
 .productDetailContainer .centerCount { padding: 0; }
@@ -1381,7 +1358,7 @@ ul.rating li i.starItem { font-size: 14px !important; }
 .ProductDetailMain #divIndirimOrani .left_line { display: none; }
 .ProductDetailMain #divIndirimOrani .center_line { display: none; }
 .ProductDetailMain #divIndirimOrani .right_line.indirimliOrani * { font-weight: 600; font-size: 15px; line-height: 40px; color: #fff; text-transform: uppercase; }
-.ProductDetailMain #divIndirimOrani .right_line.indirimliOrani { background-color: #388e3c; font-weight: 600; font-size: 15px; color: #fff; line-height: 40px; padding: 0 15px; border-radius: 5px; /* text-transform: uppercase; */ }
+.ProductDetailMain #divIndirimOrani .right_line.indirimliOrani { background-color: #cacc34; font-weight: 600; font-size: 15px; color: #fff; line-height: 40px; padding: 0 15px; border-radius: 5px; /* text-transform: uppercase; */ }
 
 
 .ProductDetailMain #pnlFiyatlar { float: left; clear: both; width: 100%; margin: 20px 0 0 0; }
@@ -1389,7 +1366,7 @@ ul.rating li i.starItem { font-size: 14px !important; }
 .ProductDetailMain #pnlFiyatlar .left_line { display: none; }
 .ProductDetailMain #pnlFiyatlar .center_line { display: none; }
 .ProductDetailMain #divTurkLirasiFiyat { float: left; width: 100%; margin-top: 10px; }
-.ProductDetailMain #divTurkLirasiFiyat * { font-size: 30px !important; color: #388e3c !important; font-weight: bold; }
+.ProductDetailMain #divTurkLirasiFiyat * { font-size: 30px !important; color: #cacc34 !important; font-weight: bold; }
 .ProductDetailMain #divTurkLirasiFiyat .spanKdv { font-size: 12px !important; margin-top: 14px; margin-left: 10px; display: inline-block; vertical-align: top; }
 .ProductDetailMain .PiyasafiyatiContent { float: left; width: 100%; margin-bottom: 10px; }
 .ProductDetailMain .IndirimliFiyatContent { float: left; width: 100%; }
@@ -1414,10 +1391,10 @@ ul.rating li i.starItem { font-size: 14px !important; }
 .ProductDetailMain .size_box { min-width: 50px; height: 40px; line-height: 40px; border-radius: 0; padding: 0 5px; cursor: pointer; position: relative; float: left; margin-right: 10px; margin-bottom: 10px; text-align: center; color: #000; font-size: 13px; border: 1px solid #e0e0e0; display: block; border-radius: 5px; }
 .resimlivaryasyon .size_box { padding: 0; }
 .ProductDetailMain .size_box img { width: 100%; height: 38px; display: block; }
-.ProductDetailMain .size_box:hover { background: #388e3c; color: #fff; border-color: #388e3c; }
-.ProductDetailMain .size_box.selected { background: #388e3c; color: #fff; border-color: #388e3c; }
+.ProductDetailMain .size_box:hover { background: #cacc34; color: #fff; border-color: #cacc34; }
+.ProductDetailMain .size_box.selected { background: #cacc34; color: #fff; border-color: #cacc34; }
 .ProductDetailMain .size_box.nostok { background: #f1f1f1; color: #000; }
-.ProductDetailMain .size_box.nostok:before { content: ''; top: 50%; left: 0; background: #388e3c; height: 1px; width: 100%; position: absolute; transform: rotate(45deg); }
+.ProductDetailMain .size_box.nostok:before { content: ''; top: 50%; left: 0; background: #cacc34; height: 1px; width: 100%; position: absolute; transform: rotate(45deg); }
 .ProductDetailMain #divEkstraBilgiler { float: left; width: 100%; margin-bottom: 10px; }
 .ProductDetailMain #divEkstraBilgiler img { max-width: 100%; display: block; }
 .ProductDetailMain #divUrunSiparisDosya, .ProductDetailMain #divUrunKisiselNot { float: left; width: 100%; margin-bottom: 10px; }
@@ -1428,8 +1405,8 @@ ul.rating li i.starItem { font-size: 14px !important; }
 .ProductIcon .box1 { padding: 0; overflow: hidden; cursor: pointer; box-shadow: none; min-width: auto; background: none; font-size: 12px; font-weight: normal; display: block; text-align: left; color: #666666; line-height: 35px; }
 .ProductIcon .box1 i { font-size: 15px; margin-left: 0; line-height: 33px; color: #cf622e; width: 35px; height: 35px; margin: 0; border: 1px solid #eee; border-radius: 0; text-align: center; display: inline-block; vertical-align: top; margin-right: 10px; }
 .ProductIcon .box1 i:before { line-height: 33px; }
-.ProductIcon .box1:hover { color: #388e3c; /* background: #7e7e7e; */ }
-.ProductIcon .box1:hover i:before { color: #388e3c; /* background: #7e7e7e; */ }
+.ProductIcon .box1:hover { color: #cacc34; /* background: #7e7e7e; */ }
+.ProductIcon .box1:hover i:before { color: #cacc34; /* background: #7e7e7e; */ }
 .ProductDetail .product-social-icon-wrapper { display: block !important; width: auto !important;float:right; margin-right: 0 !important; margin-top:20px;}
 .ProductDetail .product-social-icon-wrapper { }
 .ProductDetail .product-social-icon-wrapper .PaylasTit { float: left; font-size: 12px !important; color: #666666 !important; font-weight: 500; margin-right: 20px; line-height: 19px; }
@@ -1446,7 +1423,7 @@ ul.rating li i.starItem { font-size: 14px !important; }
 #divSatinAl .buyfast input:hover { background: #7e7e7e; }
 #divSatinAl .BasketBtn { float: left; width: 100%; }
 #divSatinAl .BasketBtn .Basketinp { float: left; width: 150px; margin-right: 0; }
-.pSatisBirimi { font-weight: 700; margin-bottom: 10px; float: left; width: 100%; font-size: 14px; color: #388e3c; }
+.pSatisBirimi { font-weight: 700; margin-bottom: 10px; float: left; width: 100%; font-size: 14px; color: #cacc34; }
 #divSatinAl .BasketBtn .Basketinp p { display: none; }
 #divSatinAl .BasketBtn .Basketinp .riSingle { width: 100%; position: relative; }
 #divSatinAl .BasketBtn .Basketinp #txtbxurunSiparisAdedi_wrapper { width: 100% !important; float: left; padding: 0 !important; position: absolute; }
@@ -1456,11 +1433,11 @@ ul.rating li i.starItem { font-size: 14px !important; }
 #divSatinAl .BasketBtn .Basketinp .riDown { z-index: 1; position: absolute; background: #fefefe !important; cursor: pointer; margin: 0 !important; top: auto; left: 0; right: auto; bottom: auto; width: 25%; height: 46px; float: left; border: 1px solid #e0e0e0; border-right: none; text-indent: 0 !important; }
 #divSatinAl .BasketBtn .Basketinp .riDown .fa { line-height: 46px; }
 #divSatinAl .BasketBtn .basketBtn { float: left; width: calc(50% - 85px); margin-left: 10px; }
-#divSatinAl .BasketBtn .basketBtn .Addtobasket, #divSatinAl .BasketBtn .basketBtn input { height: 46px; width: 100%; text-align: center; padding: 0 !important; letter-spacing: 0.5px; font-weight: 600; text-align: center; color: #fff; font-size: 16px; background: #388e3c; border: none; text-transform: uppercase; border-radius: 0; }
+#divSatinAl .BasketBtn .basketBtn .Addtobasket, #divSatinAl .BasketBtn .basketBtn input { height: 46px; width: 100%; text-align: center; padding: 0 !important; letter-spacing: 0.5px; font-weight: 600; text-align: center; color: #fff; font-size: 16px; background: #cacc34; border: none; text-transform: uppercase; border-radius: 0; }
 #divSatinAl .BasketBtn .basketBtn .Addtobasket:hover, #divSatinAl .BasketBtn .basketBtn input:hover { background: #747474; }
 #divSatinAl .BasketBtn .basketBtn .Addtobasket { display: block; line-height: 46px; }
 #divKombinSatinAl { float: left; width: 100%; margin-bottom: 10px; text-align: center; }
-#divKombinSatinAl a { height: 40px; margin: 0 !important; float: none !important; display: inline-block; line-height: 40px; letter-spacing: 0.5px; padding: 0 20px; text-align: center; color: #fff; font-size: 20px; background: #388e3c !important; border: none; }
+#divKombinSatinAl a { height: 40px; margin: 0 !important; float: none !important; display: inline-block; line-height: 40px; letter-spacing: 0.5px; padding: 0 20px; text-align: center; color: #fff; font-size: 20px; background: #cacc34 !important; border: none; }
 #divKombinSatinAl a:hover { background: #747474 !important; }
 .kombinright_line a { padding: 0 3px; }
 #divKombinUrunEkSecenek .divKombinEksecenekTipi { float: left; clear: left; width: 100%; }
@@ -1489,8 +1466,8 @@ ul.rating li i.starItem { font-size: 14px !important; }
 .urunTab ul li a span { font-weight: 600; }
 .urunTab ul li:last-child a { border-right: 0; }
 .urunTab ul li:last-child { margin-right: 0; }
-.urunTab ul li a:hover { color: #388e3c; border-color: #388e3c; }
-.urunTab ul li.active { border-color: #388e3c !important; }
+.urunTab ul li a:hover { color: #cacc34; border-color: #cacc34; }
+.urunTab ul li.active { border-color: #cacc34 !important; }
 .urunDetayPanel { float: left; width: 100%; padding: 0; font-size: 13px; line-height: 1.3; color: #666666; }
 .urunDetayPanel .yorumlarItem { background-color: #eeeeee; border-bottom: 3px solid #A09B98; padding: 16px; line-height: 26px; width: 100%; margin-top: 20px; }
 .urunDetayPanel .yorumlarItemS1 { padding-bottom: 5px; font-size: 12px; color: #666; border-bottom: 1px dashed #A09B98; }
@@ -1549,7 +1526,7 @@ ul.rating li i.starItem { font-size: 14px !important; }
 
 .Block_item .Block_Text input[type=submit], .Block_item .Block_Text input[type=button] { margin-top: 10px; }
 
-.Block_item .Block_Title { overflow: hidden; cursor: pointer; font-size: 15px; font-weight: 500; word-wrap: break-word; display: block; text-transform: uppercase; background: #388e3c; line-height: 47px; padding: 0 10px; color: #fff; margin-bottom: 20px; }
+.Block_item .Block_Title { overflow: hidden; cursor: pointer; font-size: 15px; font-weight: 500; word-wrap: break-word; display: block; text-transform: uppercase; background: #cacc34; line-height: 47px; padding: 0 10px; color: #fff; margin-bottom: 20px; }
 
 .Block_item .Block_Title span { float: left; display: block; width: 100%; font-size: 15px; font-weight: 700; color: #fff; }
 
@@ -1636,7 +1613,7 @@ ul.rating li i.starItem { font-size: 14px !important; }
 
 .anasayfaBanner .btnincele { background-color: #fff; position: absolute; padding: 10px 50px; bottom: 30px; left: 10%; right: 10%; text-align: center; font-size: 13px; color: #3d3d3d; border: 1px solid #e1e1e1; font-weight: 600; }
 
-.anasayfaBanner .btnincele:hover { background-color: #388e3c; border: 1px solid #388e3c; color: #fff; }
+.anasayfaBanner .btnincele:hover { background-color: #cacc34; border: 1px solid #cacc34; color: #fff; }
 
 /*------------------------------------Blok Sepet--------------------------------------------*/
 .SepetBlockInfo { text-align: left; }
@@ -1709,7 +1686,7 @@ ul.rating li i.starItem { font-size: 14px !important; }
 
 .welcome a { float: left; color: #000; font-family: 'FontAwesome' !important; font-style: normal; font-weight: normal; font-size: 18px; }
 
-.welcome a:hover { color: #388e3c; }
+.welcome a:hover { color: #cacc34; }
 
 .welcome .headerUyeGiris a { font-size: 0; margin-left: 25px; }
 
@@ -1739,7 +1716,7 @@ ul.rating li i.starItem { font-size: 14px !important; }
 
 .headerSosyalMedya a .fa { line-height: 27px; }
 
-.headerSosyalMedya a:hover { color: #388e3c; }
+.headerSosyalMedya a:hover { color: #cacc34; }
 
 .usernav { display: none; }
 
@@ -1750,11 +1727,11 @@ ul.rating li i.starItem { font-size: 14px !important; }
 
 .navigation .HeaderMenu2 > li { float: left; position: relative; }
 
-.navigation .HeaderMenu2 > li > a { padding: 0px 15px; line-height: 15px; color: #2b2b2b; font-size: 13px; display: block; font-weight: 600; letter-spacing: 0.4px; -webkit-font-smoothing: antialiased; text-shadow: 1px 1px 1px rgba(0,0,0,0.004); }
+.navigation .HeaderMenu2 > li > a { padding: 0px 15px; line-height: 100px; color: #2b2b2b; font-size: 13px; display: block; font-weight: 600; letter-spacing: 0.4px; -webkit-font-smoothing: antialiased; text-shadow: 1px 1px 1px rgba(0,0,0,0.004); }
 
 .navigation .HeaderMenu2 > li > a .fa { margin-left: 7px; }
 
-.navigation .HeaderMenu2 > li:hover > a { background: #388e3c; color: #fff !important; }
+.navigation .HeaderMenu2 > li:hover > a { background: #cacc34; color: #fff !important; }
 
 .navigation .HeaderMenu2 > li .altMenu { position: absolute; display: none; left: 0; top: 100%; z-index: 99; background: #fcfcfc; width: 200px; }
 
@@ -1764,7 +1741,7 @@ ul.rating li i.starItem { font-size: 14px !important; }
 
 .navigation .HeaderMenu2 > li .altMenu ul li a { display: block; color: #2b2b2b; font-weight: 700; font-size: 13px; line-height: normal; text-align: left; padding: 11px 25px; }
 
-.navigation .HeaderMenu2 > li .altMenu ul li a:hover { color: #388e3c; }
+.navigation .HeaderMenu2 > li .altMenu ul li a:hover { color: #cacc34; }
 
 .navigation .HeaderMenu2 > li:hover .altMenu { display: block; }
 
@@ -1780,11 +1757,11 @@ ul.rating li i.starItem { font-size: 14px !important; }
 
 .navigation .HeaderMenu2 > li > ul > li a .fa { display: none; }
 
-.navigation .HeaderMenu2 > li > ul > li a:hover { color: #388e3c; }
+.navigation .HeaderMenu2 > li > ul > li a:hover { color: #cacc34; }
 
 .navigation .HeaderMenu2 > li > ul > li > ul li a { display: block; color: #2b2b2b; font-weight: normal; font-size: 13px; line-height: normal; text-align: left; padding: 15px 25px; }
 
-.navigation .HeaderMenu2 > li > ul > li > ul li a:hover { color: #388e3c; }
+.navigation .HeaderMenu2 > li > ul > li > ul li a:hover { color: #cacc34; }
 
 .navigation .HeaderMenu2 li:hover > ul { display: block; }
 
@@ -1801,7 +1778,7 @@ ul.rating li i.starItem { font-size: 14px !important; }
 
 
 /*Sepet*/
-.mycart { float: right; position: relative;}
+.mycart { float: right; position: relative; }
 
 .mycart > a { display: block; color: #000; line-height: 96px; margin-left: 25px; }
 
@@ -1815,7 +1792,7 @@ ul.rating li i.starItem { font-size: 14px !important; }
 
 .mycart .sepetUrunSayisi { display: none; text-align: center; color: #666; font-size: 20px; font-weight: 600; padding: 0 0 3px 0; }
 
-.mycart > a:hover:after { color: #388e3c; }
+.mycart > a:hover:after { color: #cacc34; }
 
 .CartProduct p { margin-top: 0; margin-bottom: 0; }
 .CartProduct { display: block !important; width: 450px; background: #fff; float: left; padding: 20px; z-index: 99999; position: absolute; top: 100%; right: -1px; margin-left: -150px; border: 1px solid #f0f0f0; border-radius: 3px; box-shadow: 0 0 16px -10px #000; opacity: 0; visibility: hidden; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; }
@@ -1855,7 +1832,7 @@ ul.rating li i.starItem { font-size: 14px !important; }
 .CartProduct .button { margin: 0 !important; float: left; width: calc(50% - 10px); font-size: 14px !important; line-height: 35px; border-radius: 0; padding: 0; text-transform: uppercase; font-weight: 600; }
 .CartProduct .headerCartBtn { line-height: 45px; border: 1px solid #ccc; background: transparent; color: #434343; }
 .CartProduct .headerOrderBtn { line-height: 47px; float: right; }
-.CartProduct .headerCartBtn:hover { color: #fff; background: #388e3c; border-color: #388e3c; }
+.CartProduct .headerCartBtn:hover { color: #fff; background: #cacc34; border-color: #cacc34; }
 .CartProduct.more .SPrice { display: block; }
 .CartProduct.more .Title { display: block; }
 .CartProduct.more .cart-footer { display: block; }
@@ -1880,7 +1857,7 @@ ul.rating li i.starItem { font-size: 14px !important; }
 
 .searchContent #txtbxArama { -webkit-appearance: none; float: left; width: 100%; font-weight: 300; height: 40px; color: #2b2b2b; font-size: 14px; padding: 0 75px 0 15px; background: transparent; border: 1px solid #eee; }
 
-.searchContent #btnKelimeAra { -webkit-appearance: none; cursor: pointer; position: absolute; border: none; right: 0px; top: 0; padding: 0 25px; height: 40px; background: #388e3c; color: #fff; font-size: 12px; text-transform: uppercase; font-weight: 700; }
+.searchContent #btnKelimeAra { -webkit-appearance: none; cursor: pointer; position: absolute; border: none; right: 0px; top: 0; padding: 0 25px; height: 40px; background: #cacc34; color: #fff; font-size: 12px; text-transform: uppercase; font-weight: 700; }
 
 
 /* ================================================ */
@@ -1888,7 +1865,7 @@ ul.rating li i.starItem { font-size: 14px !important; }
 /* ================================================ */
 .ebultenBolumu { float: left; width: 100%; margin-top: 25px; background: url('/Uploads/EditorUploads/ccc.jpg') center center; background-size: cover; height: 500px; margin-bottom: 0px; }
 
-.ebultenBolumu .ebultenBaslik { float: left; width: 100%; margin-top: 145px; margin-bottom: 25px; display: block; color: #2b2b2b; font-family: 'Comfortaa'; font-size: 13px; }
+.ebultenBolumu .ebultenBaslik { float: left; width: 100%; margin-top: 145px; margin-bottom: 25px; display: block; color: #2b2b2b; font-family: 'Roboto', sans-serif; font-size: 13px; }
 
 .ebultenBolumu .ebultenBaslik strong { font-size: 24px; font-weight: 500; display: block; margin-bottom: 30px; }
 
@@ -1898,9 +1875,9 @@ ul.rating li i.starItem { font-size: 14px !important; }
 
 #divNewsLetter #txtbxNewsletterMail { border: 1px solid #fff; height: 40px; color: #000; background: #fff; font-size: 13px; width: 100%; padding-right: 80px; }
 
-#divNewsLetter #btnMailKaydet { position: absolute; background: #388e3c; right: 0; top: 0; height: 40px; line-height: 40px; padding: 0 15px; margin: 0; }
+#divNewsLetter #btnMailKaydet { position: absolute; background: #cacc34; right: 0; top: 0; height: 40px; line-height: 40px; padding: 0 15px; margin: 0; }
 
-#divNewsLetter .newsbutton { position: absolute; background: #388e3c !important; right: 0; top: 0; height: 40px; line-height: 40px; padding: 0 15px; margin: 0; }
+#divNewsLetter .newsbutton { position: absolute; background: #cacc34; right: 0; top: 0; height: 40px; line-height: 40px; padding: 0 15px; margin: 0; }
 
 
 .footerTopTutucu { background-color: #fff; border-top: 1px solid #efefef; padding: 35px 0 35px 0; margin-top: 20px; }
@@ -1951,7 +1928,7 @@ ul.rating li i.starItem { font-size: 14px !important; }
 
 #ticimaxCopyright { display: inline-block; margin: 0 !important; line-height: 45px !important; }
 
-#ticimaxCopyright a { color: #388e3c !important; }
+#ticimaxCopyright a { color: #cacc34 !important; }
 
 .userLoginBtn, .userSignBtn { border: 0 !important; }
 
@@ -2105,7 +2082,7 @@ ul.rating li i.starItem { font-size: 14px !important; }
 
     body #divSayfalamaUst .category-vertical-filters.top-filters .slider-range { background: #dfdfdf; height: 5px; width: 100%; margin: 8px 0 5px 0px; border: none; float: left; }
     body #divSayfalamaUst .category-vertical-filters.top-filters .slider-range .ui-slider-range { background: #262626; height: 4px; margin-top: 0; }
-    body #divSayfalamaUst .category-vertical-filters.top-filters .slider-range .ui-slider-handle { background: #388e3c; border-radius: 100%; width: 18px; height: 18px; border: none; margin-top: 0; margin-right: -4px; top: -7px; }
+    body #divSayfalamaUst .category-vertical-filters.top-filters .slider-range .ui-slider-handle { background: #cacc34; border-radius: 100%; width: 18px; height: 18px; border: none; margin-top: 0; margin-right: -4px; top: -7px; }
     body #divSayfalamaUst .category-vertical-filters.top-filters .amount { color: #262626; font-size: 14px; font-weight: 600; left: 0; padding: 5px 0 0; float: left; width: 100%; text-align: center; margin-bottom: 0; }
     .FiltreUst { display: none; }
     .tukgo { display: none; }
@@ -2236,7 +2213,7 @@ section.ResimGaleri .Main .Marquee-tag:hover:after { content: ''; position: abso
 
 .AddGalleryModal .FormElements .Or > span { font-style: italic; font-size: 12px; background-color: #fff; padding: 0 10px; position: relative; z-index: 1; display: inline-block; line-height: 20px; color: #949494; }
 
-.AddGalleryModal .FormElements label { font-size: 12px; margin: 5px 0; width: 100%; color: #388e3c; }
+.AddGalleryModal .FormElements label { font-size: 12px; margin: 5px 0; width: 100%; color: #cacc34; }
 
 .AddGalleryModal .FormElements input, .FormElements textarea { border: 1px solid #bdbdbd; display: block; width: 100%; padding: 12px; font-size: 14px; }
 
@@ -2267,7 +2244,7 @@ section.ResimGaleri .Main .Marquee-tag:hover:after { content: ''; position: abso
 /*Fiyat Aralığı*/
 body .leftBlock .slider-range { float: left; width: 100%; border: none; border-radius: 0; padding: 0; margin: 10px 0 20px 0; height: 5px; background: #eee; }
 body .leftBlock .slider-range .ui-slider-range { height: 5px; background: #000; border-radius: 0; top: 0; margin: 0; }
-body .leftBlock .slider-range .ui-slider-handle { width: 20px; height: 20px; border-radius: 100%; background: #388e3c; border: none; margin: 0; top: -8px; }
+body .leftBlock .slider-range .ui-slider-handle { width: 20px; height: 20px; border-radius: 100%; background: #cacc34; border: none; margin: 0; top: -8px; }
 body .leftBlock .slider-range span:nth-child(2) { margin-left: 0; }
 body .leftBlock .slider-range span:nth-child(3) { margin-left: -20px; }
 body .leftBlock .amount { float: left; width: 100%; color: #000; font-size: 14px; text-align: left; margin-bottom: 20px; font-weight: 500; }
@@ -2331,7 +2308,7 @@ body #divSayfalamaUst:not(.Slct) .brandlistselection .blockSelect a { background
 body #divSayfalamaUst:not(.Slct) .brandlistselection .blockSelect a i { font-size: 16px; float: left; line-height: 35px; font-family: 'FontAwesome'; font-weight: 600; }
 body #divSayfalamaUst:not(.Slct) .brandlistselection .blockSelect a:hover i { color: #000; }
 body #divSayfalamaUst:not(.Slct) .brandlistselection .blockSelect a:hover { }
-body #divSayfalamaUst:not(.Slct) .brandlistselection .blockSelect a.Active i { color: #388e3c; }
+body #divSayfalamaUst:not(.Slct) .brandlistselection .blockSelect a.Active i { color: #cacc34; }
 body #divSayfalamaUst:not(.Slct) .brandlistselection .blockSelect a.Active { }
 body #divSayfalamaUst:not(.Slct) .brandlistselection .blockSelect a.sort_3 { }
 body #divSayfalamaUst:not(.Slct) .brandlistselection .blockSelect a.sort_2 { display: none; }
@@ -2343,9 +2320,9 @@ body #divSayfalamaUst:not(.Slct) .brandlistselection .sortingContent li:not(.app
 body #divSayfalamaUst:not(.Slct) .brandlistselection .sortingContent li > a { position: relative; background-color: transparent; color: #000000; font-size: 12px; border-radius: 0; padding: 0 15px; }
 body #divSayfalamaUst:not(.Slct) .brandlistselection .sortingContent li > a span { font-weight: normal; line-height: 35px; }
 body #divSayfalamaUst:not(.Slct) .brandlistselection .sortingContent li > a:hover { text-decoration: underline; }
-body #divSayfalamaUst:not(.Slct) .brandlistselection .sortingContent li a.selected { text-decoration: underline; color: #388e3c; background: #fff; }
+body #divSayfalamaUst:not(.Slct) .brandlistselection .sortingContent li a.selected { text-decoration: underline; color: #cacc34; background: #fff; }
 
-body #divSayfalamaUst:not(.Slct) .brandlistselection .appliedFilter.FiltrelemeUrunAdet span { float: left; font-size: 12px; color: #388e3c; font-weight: normal; line-height: 35px; padding: 0; margin: 0; }
+body #divSayfalamaUst:not(.Slct) .brandlistselection .appliedFilter.FiltrelemeUrunAdet span { float: left; font-size: 12px; color: #cacc34; font-weight: normal; line-height: 35px; padding: 0; margin: 0; }
 body #divSayfalamaUst:not(.Slct) .brandlistselection .appliedFilter.FiltrelemeUrunAdet { float: right; background-color: transparent; height: auto; padding: 0; }
 body #divSayfalamaUst:not(.Slct) .brandlistselection .sortingContent li.appliedFilter.FiltrelemeUrunAdet { float: right; }
 
@@ -2353,13 +2330,13 @@ body #divSayfalamaUst:not(.Slct) .brandlistselection .sortingContent li.appliedF
 body #divSayfalamaUst.Slct .blockSelect { float: right; margin: 0; display: block !important; padding: 0; }
 body #divSayfalamaUst.Slct .blockSelect a { float: left; width: 40px; height: auto; margin: 0; padding: 0; text-align: center; border: none; background: #fff; display: block; margin-left: 10px; border: 1px solid #eee; }
 body #divSayfalamaUst.Slct .blockSelect i { color: #c6c6c6; line-height: 40px; font-size: 18px; }
-body #divSayfalamaUst.Slct .blockSelect a:hover { color: #388e3c; }
-body #divSayfalamaUst.Slct .blockSelect a:hover i { color: #388e3c; }
+body #divSayfalamaUst.Slct .blockSelect a:hover { color: #cacc34; }
+body #divSayfalamaUst.Slct .blockSelect a:hover i { color: #cacc34; }
 
 body #divSayfalamaUst.Slct .blockSelect .sort_2 { display: none; }
 body #divSayfalamaUst.Slct .blockSelect .sort_5 { display: none; }
-body #divSayfalamaUst.Slct .blockSelect a.Active { color: #388e3c; }
-body #divSayfalamaUst.Slct .blockSelect a.Active i { color: #388e3c; }
+body #divSayfalamaUst.Slct .blockSelect a.Active { color: #cacc34; }
+body #divSayfalamaUst.Slct .blockSelect a.Active i { color: #cacc34; }
 
 body #divSayfalamaUst.Slct .brandlistselection .sortingContent { float: left; width: 100%; display: block; background: transparent; padding: 10px; border: 1px solid #eee; }
 body #divSayfalamaUst.Slct .brandlistselection .sortingContent select { float: left; height: 40px; color: #252525; font-size: 14px; font-weight: normal; border: none; background: #fff; border-radius: 0; padding: 0; appearance: none; -moz-appearance: none; -webkit-appearance: none; padding: 0 10px; border: 1px solid #eee; }
@@ -2367,12 +2344,12 @@ body #divSayfalamaUst.Slct .brandlistselection .sortingContent li { height: auto
 body #divSayfalamaUst.Slct .brandlistselection .sortingContent li.appliedFilter.FiltrelemeUrunAdet { float: right; }
 
 body #divSayfalamaUst.Slct li.appliedFilter.FiltrelemeUrunAdet { margin: 0; }
-body #divSayfalamaUst.Slct li.appliedFilter.FiltrelemeUrunAdet span { color: #388e3c; font-size: 12px; line-height: 40px; font-weight: normal; float: left; margin: 0; text-indent: 0; text-transform: capitalize; }
+body #divSayfalamaUst.Slct li.appliedFilter.FiltrelemeUrunAdet span { color: #cacc34; font-size: 12px; line-height: 40px; font-weight: normal; float: left; margin: 0; text-indent: 0; text-transform: capitalize; }
 
 body #divSayfalamaUst.Slct .brandlistselection a.filterOrderInStock { padding: 0; background: transparent; color: #252525; font-size: 14px; }
 body #divSayfalamaUst.Slct .brandlistselection a.filterOrderInStock span { line-height: 40px; font-weight: normal; display: inline-block; vertical-align: top; text-transform: capitalize; }
 body #divSayfalamaUst.Slct .brandlistselection a.filterOrderInStock:before { content: ''; width: 15px; height: 15px; border: 1px solid #d1d1d1; border-radius: 3px; float: left; margin: 12px 10px 0 0; background: #fff; }
-body #divSayfalamaUst.Slct .brandlistselection a.filterOrderInStock.selected:before { background: #388e3c; border-color: #388e3c; }
+body #divSayfalamaUst.Slct .brandlistselection a.filterOrderInStock.selected:before { background: #cacc34; border-color: #cacc34; }
 
 
 body #divSayfalamaUst .category-vertical-filters.top-filters .FiltreUst { display: none; }
@@ -2384,14 +2361,14 @@ body #divSayfalamaUst .filterDeleteContent .appliedFilter { padding: 0; margin: 
 body #divSayfalamaUst .filterDeleteContent .appliedFilter.filtrelemeKaydet { display: none; }
 body #divSayfalamaUst .filterDeleteContent .appliedFilter:not(.FiltrelemeKaldir ) a { min-width: 32px; margin: 0; border: #ebecee; border-left: 1px solid #eee; }
 body #divSayfalamaUst .filterDeleteContent .appliedFilter a i { font-family: 'FontAwesome'; line-height: 32px; color: #252525; font-size: 12px; font-weight: 300; }
-body #divSayfalamaUst .filterDeleteContent .appliedFilter a:hover i { color: #388e3c; }
+body #divSayfalamaUst .filterDeleteContent .appliedFilter a:hover i { color: #cacc34; }
 body #divSayfalamaUst .filterDeleteContent .appliedFilter a i:before { content: '\f00d'; }
 body #divSayfalamaUst .filterDeleteContent .appliedFilter .filter-content span { color: #666; font-size: 12px; text-align: left; font-weight: 400; margin: 0; line-height: 32px; padding-left: 14px; padding-right: 21px; }
 .filterColorBg { display: none !important; }
 body #divSayfalamaUst .filterDeleteContent .appliedFilter .filter-content span + span { color: #666; }
 body #divSayfalamaUst .filterDeleteContent .appliedFilter.FiltrelemeKaldir { display: block; }
 body #divSayfalamaUst .filterDeleteContent .appliedFilter.FiltrelemeKaldir a { width: 100%; background: 0 0; line-height: 1; margin: 0; padding: 0; }
-body #divSayfalamaUst .filterDeleteContent .appliedFilter.FiltrelemeKaldir a span { line-height: 32px; font-weight: 400; font-size: 13px; text-align: center; margin: 0; width: 100%; color: #fff !important; background: #388e3c !important; }
+body #divSayfalamaUst .filterDeleteContent .appliedFilter.FiltrelemeKaldir a span { line-height: 32px; font-weight: 400; font-size: 13px; text-align: center; margin: 0; width: 100%; color: #fff !important; background: #cacc34 !important; }
 
 @media(min-width:992px) {
 }
@@ -2404,7 +2381,7 @@ body #divSayfalamaUst .filterDeleteContent .appliedFilter.FiltrelemeKaldir a spa
 }
 
 @media(max-width:1024px) {
-    body .mobilFilterOpenBtn .button { padding: 0; margin: 0; color: #fff; width: calc(50% - 5px); line-height: 40px; display: inline-block; vertical-align: top; font-weight: 600; text-transform: uppercase; background: #388e3c; }
+    body .mobilFilterOpenBtn .button { padding: 0; margin: 0; color: #fff; width: calc(50% - 5px); line-height: 40px; display: inline-block; vertical-align: top; font-weight: 600; text-transform: uppercase; background: #cacc34; }
     body .mobilFilterOpenBtn .button.mobilSiralamBtn { float: left; }
     body .mobilFilterOpenBtn .button.mobilSiralamBtn:before { content: '\f15d'; font-family: fontawesome; font-weight: 300; font-size: 16px; display: inline-block; vertical-align: top; margin-right: 10px; }
     body .mobilFilterOpenBtn .button.mobilFilterBtn:before { content: '\f0b0'; font-family: fontawesome; font-weight: 300; font-size: 16px; display: inline-block; vertical-align: top; margin-right: 10px; }
@@ -2430,7 +2407,7 @@ body #divSayfalamaUst .filterDeleteContent .appliedFilter.FiltrelemeKaldir a spa
     body .dropdown-toggle:after { display: none; }
     body #divSayfalamaUst { padding: 0; margin: 0; width: 100%; border: none; background: transparent; position: relative; }
     .urunListRel { width: 100%; }
-    body .mobilFilterOpenBtn .button { padding: 0; margin: 0; color: #fff; width: calc(50% - 5px); line-height: 40px; background: #388e3c; display: inline-block; vertical-align: top; font-weight: 600; text-transform: uppercase; }
+    body .mobilFilterOpenBtn .button { padding: 0; margin: 0; color: #fff; width: calc(50% - 5px); line-height: 40px; background: #cacc34; display: inline-block; vertical-align: top; font-weight: 600; text-transform: uppercase; }
     body .mobilFilterOpenBtn .button.mobilSiralamBtn { float: left; }
     body .mobilFilterOpenBtn .button.mobilSiralamBtn:before { content: '\f15d'; font-family: FontAwesome; font-weight: 300; font-size: 16px; display: inline-block; vertical-align: top; margin-right: 10px; }
     body .mobilFilterOpenBtn .button.mobilFilterBtn:before { content: '\f0b0'; font-family: FontAwesome; font-weight: 300; font-size: 16px; display: inline-block; vertical-align: top; margin-right: 10px; }
@@ -2461,7 +2438,7 @@ body #divSayfalamaUst .filterDeleteContent .appliedFilter.FiltrelemeKaldir a spa
     body .category-vertical-filters.top-filters { display: block !important; width: 360px; position: fixed; top: 0; right: -100%; bottom: 0; z-index: 9999; background: #f3f5f8; margin: 0; padding: 0; border: none; transition: all .3s ease; overflow-y: auto; overflow-x: hidden; margin: 0 !important; }
     body .category-vertical-filters.top-filters ul { list-style: none; padding: 0; margin: 0; }
     body .filterBlock.active .category-vertical-filters.top-filters { right: 0; }
-    body #divSayfalamaUst .category-vertical-filters.top-filters .FiltreUst { float: left; width: 100%; line-height: 50px; font-size: 16px; color: #fff; margin-bottom: 10px; padding: 0 10px; position: relative; text-align: center; display: block; background: #388e3c; }
+    body #divSayfalamaUst .category-vertical-filters.top-filters .FiltreUst { float: left; width: 100%; line-height: 50px; font-size: 16px; color: #fff; margin-bottom: 10px; padding: 0 10px; position: relative; text-align: center; display: block; background: #cacc34; }
     body .category-vertical-filters.top-filters .FiltreUst span { display: inline-block; vertical-align: top; position: absolute; left: 0; right: 0; top: 0; bottom: 0; }
     body .category-vertical-filters.top-filters .FiltreUst .closeFilt { float: left; font-size: 25px; position: relative; z-index: 1; }
     body .category-vertical-filters.top-filters .FiltreUst a { float: right; font-size: 13px; position: relative; z-index: 1; color: #fff; display: none; }
@@ -2497,7 +2474,7 @@ body #divSayfalamaUst .filterDeleteContent .appliedFilter.FiltrelemeKaldir a spa
 
 
     /*MobilMenu*/
-    .menuUstBolum { width: 100%; display: inline-block; float: left; margin-top: 0; border-bottom: 1px solid #e8e8e8; background: #388e3c; }
+    .menuUstBolum { width: 100%; display: inline-block; float: left; margin-top: 0; border-bottom: 1px solid #e8e8e8; background: #cacc34; }
     .menuUstBolum .CloseBtnMenu { float: right; line-height: 50px; color: #fff; font-size: 30px; width: 50px; text-align: center; margin: 0; cursor: pointer; }
     .menuUstBolum .CloseBtnMenu i { font-weight: 300; }
     .menuUstBolum .menuBack { float: left; line-height: 50px; color: #fff; font-size: 15px; text-align: center; margin: 0; cursor: pointer; padding-left: 20px; }
@@ -2583,7 +2560,7 @@ body #header .stories.carousel .story > .item-link > .info{display:none;}
     .menuUstBolum { margin-top: 0; }
     /*sepetalan*/
     .CartProductInner { position: absolute; top: 50px; bottom: 0; width: 100%; left: 0; right: 0; padding: 0 10px; }
-    .SepetUst { float: left; width: calc(100% + 20px); text-align: center; color: #fff; line-height: 50px; font-size: 16px; margin-left: -10px; margin-right: -10px; margin-top: -10px; background: #388e3c; }
+    .SepetUst { float: left; width: calc(100% + 20px); text-align: center; color: #fff; line-height: 50px; font-size: 16px; margin-left: -10px; margin-right: -10px; margin-top: -10px; background: #cacc34; }
     .SepetUst span { display: inline-block; vertical-align: top; }
     .SepetUst .seClose { float: left; width: 40px; font-size: 22px; position: absolute; left: 0; }
     .SepetUst .seClose i { display: inline-block; vertical-align: top; line-height: 50px; }
@@ -2622,7 +2599,7 @@ body #header .stories.carousel .story > .item-link > .info{display:none;}
     body .searchContent #btnKelimeAra { width: 50px; height: 40px; right: 0; top: 0; line-height: 40px; text-indent: 0; padding: 0; left: auto; background-position: center center; background-image: none; border: none; border-radius: 0; font-size: 15px; text-align: center; /* background: transparent; */ /* color: #000; */ }
     .ButtonMic { right: 40px; height: 40px; }
     /*hosgeldin div*/
-    .welcome { display: block; width: 100%; position: absolute; top: 100%; right: 0; bottom: auto; text-align: center; background: #388e3c; border: none; padding: 0; margin: 0; height: 0; border-radius: 0; z-index: 100; overflow: hidden; transition: all 0.1s ease; -webkit-transition: all 0.1s ease; -moz-transition: all 0.1s ease; -o-transition: all 0.1s ease; }
+    .welcome { display: block; width: 100%; position: absolute; top: 100%; right: 0; bottom: auto; text-align: center; background: #cacc34; border: none; padding: 0; margin: 0; height: 0; border-radius: 0; z-index: 100; overflow: hidden; transition: all 0.1s ease; -webkit-transition: all 0.1s ease; -moz-transition: all 0.1s ease; -o-transition: all 0.1s ease; }
     .welcome.active { height: 40px; }
     .welcome > div { width: 100%; position: static; padding: 0; box-shadow: none; display: block; background: transparent; margin: 0; }
     .welcome > ul { margin: 0; }
@@ -2633,9 +2610,9 @@ body #header .stories.carousel .story > .item-link > .info{display:none;}
     .welcome li { float: none !important; display: inline-block !important; width: auto; vertical-align: top; }
     .headerSocialConnect { margin-left: 0; }
     .headerSocialConnect .baglanButton { margin-left: 10px; margin: 0; background: transparent !important; padding: 0 !important; }
-    .headerSocialConnect .baglanButton a { line-height: 40px; font-size: 13px; color: #fff; padding: 0; font-family: 'Comfortaa'!important; }
+    .headerSocialConnect .baglanButton a { line-height: 40px; font-size: 13px; color: #fff; padding: 0; font-family: roboto,sans-serif !important; }
     .headerSocialConnect .baglanButton a:before { line-height: 40px; }
-    .welcome .headerHesabim, .welcome .headerCikis, .welcome .headerUyeOl a, .welcome .headerUyeGiris a { float: none; display: inline-block !important; font-size: 13px !important; line-height: 40px; color: #fff !important; border: none; padding: 0; width: auto; height: auto; margin: 0 5px; font-weight: 500; font-family: 'Comfortaa' !important; height: auto; }
+    .welcome .headerHesabim, .welcome .headerCikis, .welcome .headerUyeOl a, .welcome .headerUyeGiris a { float: none; display: inline-block !important; font-size: 13px !important; line-height: 40px; color: #fff !important; border: none; padding: 0; width: auto; height: auto; margin: 0 5px; font-weight: 500; font-family: 'Roboto', sans-serif !important; height: auto; }
     .headerUyeGiris a, .headerHesabim { background: transparent; margin-right: 10px; }
     .headerUyeGiris a:after, .headerHesabim:after, .headerCikis:after, .headerUyeOl a:after, .headerUyeGiris a:before, .headerHesabim:before, .headerCikis:before, .headerUyeOl a:before { display: none !important; }
 
@@ -2678,7 +2655,7 @@ body #header .stories.carousel .story > .item-link > .info{display:none;}
     body a#linkOncekiSayfa { display: none; }
     body .leftImage a#linkOncekiSayfa { position: absolute; top: 0; left: 0; width: 35px; background: #fff; text-align: center; font-size: 0 !important; font-family: 'FontAwesome'; color: #000; z-index: 5; line-height: 35px; display: block; }
     body .leftImage a#linkOncekiSayfa:before { content: '\f053'; font-size: 20px; display: inline-block; vertical-align: top; line-height: 35px; }
-    .spanustSepetteUrunYok { font-size: 16px; margin: 20px 0 0 0; float: left; clear: both; text-align: center; width: 100%; font-weight: 900; color: #388e3c; }
+    .spanustSepetteUrunYok { font-size: 16px; margin: 20px 0 0 0; float: left; clear: both; text-align: center; width: 100%; font-weight: 900; color: #cacc34; }
     .spanustSepetteUrunYok:before { content: '!'; font-size: 50px; vertical-align: top; border: 1px solid; display: block; width: 100px; height: 100px; line-height: 98px; border-radius: 100%; margin: 0 auto; margin-bottom: 30px; }
     .categoryContainer .centerCount { margin-top: 10px; padding: 0; }
     #divSatinAl .BasketBtn .Basketinp .riUp .fa { line-height: 44px; }
@@ -2728,3 +2705,49 @@ body #header .stories.carousel .story > .item-link > .info{display:none;}
     .ProductIcon > div { width: 12%; float: left; }
     .navigation .HeaderMenu2 > li > a { font-size: 12px; padding: 0 5px; }
 }
+
+
+
+
+
+
+<link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" rel="stylesheet" />
+<section class="elementor-section container" data-element_type="section" data-id="au8jv24" style="background-color: #F5F4F1 !important; width: 100%; margin-top: 50px; margin-bottom: 50px;">
+<div class="footerTempContainer elementor-container">
+<div class="footerTempRow row">
+<div class="footerTempColumnDiv elementor-column col-sm-3" data-col="25" data-element_type="elementor-column" data-id="pfvjgcw">
+<div class="footerTempWidgetRepeat elementor-element    desktopJustfyCenter" data-element_type="widget" data-widget-id="cqya6cj">
+<div class="footerimg" style="text-align: center;"><a aria-current="picture-widget" href="/"><img src="/Uploads/FooterTasarim/11/58c89ac6-8080-4e8f-9836-ce7b3b1aec99.jpg" /> </a></div>
+
+<p class="subt">350 TL ve üzeri alışverişlerinizde kargo ücreti ödemezsiniz.</p>
+</div>
+</div>
+
+<div class="footerTempColumnDiv elementor-column  col-sm-3" data-col="25" data-element_type="elementor-column" data-id="wxwzwis">
+<div class="footerTempWidgetRepeat elementor-element    desktopJustfyCenter" data-element_type="widget" data-widget-id="jl7wchm">
+<div class="footerimg" style="text-align: center;"><a aria-current="picture-widget" href="/"><img src="/Uploads/FooterTasarim/11/fc4a7019-d7ee-49cd-924c-02f4403c6de0.jpg" /> </a></div>
+
+<p class="subt">3D SSL sistem ile güvenli ödeme.</p>
+</div>
+</div>
+
+<div class="footerTempColumnDiv elementor-column col-sm-3" data-col="25" data-element_type="elementor-column" data-id="knejm4d">
+<div class="footerTempWidgetRepeat elementor-element    desktopJustfyCenter" data-element_type="widget" data-widget-id="vthlu16">
+<div class="footerimg" style="text-align: center;"><a aria-current="picture-widget" href="/"><img src="/Uploads/FooterTasarim/11/5a97fbca-d2fd-4350-9b74-06902072e686.jpg" /> </a></div>
+
+<p class="subt">İptal ve değişim haklarınız tabiidir.</p>
+</div>
+</div>
+
+<div class="footerTempColumnDiv elementor-column col-sm-3" data-col="25" data-element_type="elementor-column" data-id="ceqnfsa">
+<div class="footerTempWidgetRepeat elementor-element    desktopJustfyCenter" data-element_type="widget" data-widget-id="wvfs5za">
+<div class="footerimg" style="text-align: center;"><a aria-current="picture-widget" href="/"><img src="/Uploads/FooterTasarim/11/d4a09ff1-cdb0-4a89-97d5-c4e1f1c58020.jpg" /> </a></div>
+
+<p class="subt">Tüm ürünlerimizi taksitli satın alabilirsiniz.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<script> document.addEventListener("DOMContentLoaded", () => {alert("DOM ready!")})</script>
